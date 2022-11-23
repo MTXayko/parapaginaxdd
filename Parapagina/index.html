@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<div class="wrapper">
+    <a class="buttonondulado" href="#">Hover me!</a>
+</div>
+
+<!-- Filter: https://css-tricks.com/gooey-effect/ -->
+<svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+        <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        </filter>
+    </defs>
+</svg>
+
+<!-- SOCIAL MEDIAS -->
+
+<div>
+    <a href="#"><span>Facebook</span></a>
+    <a href="#"><span>Twitter</span></a>
+    <a href="#"><span>Google+</span></a>
+    <a href="#"><span>Github</span></a>
+    <a href="#"><span>Dribbble</span></a>
+    <a href="#"><span>CodePen</span></a>
+  </div>
+
+  <!-- borde colores -->
+
+  <div class="gradient-border" id="box">Animated <br>CSS<br>Gradient Border</div>
+
+    <!-- Texto animacion -->
+
+    <div class="container">
+        <div id="center" class="col-md-offset-3 col-md-6">
+          <div class="animation-container">
+            <div class="animation-block"></div>
+            <div class="text-animation">
+              NEON JUICE.
+            </div>
+            <div class="text-animation text-animation--offset1">
+              NEON JUICE
+            </div>
+            <div class="text-animation text-animation--offset2">
+              NEON JUICE
+            </div>
+            <div class="text-animation text-animation--offset3">
+              NEON JUICE
+            </div>
+            <div class="text-animation text-animation--offset4">
+              NEON JUICE
+            </div>
+          </div>
+        </div>
+      </div>
